@@ -78,3 +78,11 @@ for(let i=0;i<containers.length;i++) {
 containers.innerHTML = "<input type='text' placeholder='escriba su texto'>";
 
 /*Eventos*/
+/*1*/
+var boton = document.getElementById("btn-click");
+
+/*2*/
+boton.onclick = function(evt)
+{
+    alert("Hola mundo");
+}
