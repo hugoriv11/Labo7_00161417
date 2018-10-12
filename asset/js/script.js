@@ -72,4 +72,9 @@ for(let i=0;i<containers.length;i++) {
 }
 
 /*3*/
+for(let i=0;i<containers.length;i++) {
+    containers[i].innerHTML = "<input type='text' placeholder='escriba su texto'>";
+}
 containers.innerHTML = "<input type='text' placeholder='escriba su texto'>";
+
+/*Eventos*/
